@@ -11,7 +11,7 @@
 repls=10
 
 # number of production steps when doing the swapping thing.
-prodss=5
+prodss=10
 
 ### DO ONLY ONCE
 # number of backup folders
@@ -44,11 +44,14 @@ touch ./main/energy_values.txt
 # # ### MAIN STUFF
 
 #### Variables
-steps=10000
+minimize_steps=10000
+steps=20000
 temp_step=10
 curr_temp=300
 
 # #### Minimization
+
+sed -i "134s/5000/$minimize_steps/g" main/min.inp
 
 /home/radhikesh/Documents/sem2/CiS1/namd/namd2 main/min.inp
 
