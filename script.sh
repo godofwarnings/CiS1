@@ -22,6 +22,8 @@ mkdir ./main/min
 
 unzip files.zip -d files
 
+
+
 cp -a files/parallel_temp/. main/
 
 for ((i = 1; i <= $repls; i++)); do
@@ -55,7 +57,7 @@ curr_temp=300
 
 sed -i "134s/5000/$minimize_steps/g" main/min.inp
 
-/home/radhikesh/Documents/sem2/CiS1/namd/namd2 main/min.inp
+./files/namd/namd2 main/min.inp
 
 # #### Equilibration
 sed -i '1s+1bhp_wb.psf+./decaalanine_solvated.psf+g' main/eq.inp
@@ -70,7 +72,7 @@ for ((i = 1; i <= $repls; i++)); do
     j=$((i - 1))
     sed -i "5s+./output_$j/eq/eq+./output_$i/eq/eq+g" main/eq.inp
     sed -i "4s/$pre_temp/$curr_temp/g" main/eq.inp
-    /home/radhikesh/Documents/sem2/CiS1/namd/namd2 main/eq.inp
+    ./files/namd/namd2 main/eq.inp
     pre_temp=$curr_temp
     ((curr_temp += $temp_step))
 done
@@ -94,7 +96,7 @@ for ((i = 1; i <= $repls; i++)); do
 done
 
 for ((i = 1; i <= $repls; i++)); do
-    /home/radhikesh/Documents/sem2/CiS1/namd/namd2 main/output_$i/prod.inp | tee ./main/output_$i/prod_0/energy_out.log
+    ./files/namd/namd2 main/output_$i/prod.inp | tee ./main/output_$i/prod_0/energy_out.log
 done
 
 for ((i = 1; i <= $backups; i++)); do
@@ -175,7 +177,7 @@ for ((i = 1; i <= $prodss; i++)); do
     done
     
     for ((j = 1; j <= $repls; j++)); do
-        /home/radhikesh/Documents/sem2/CiS1/namd/namd2 main/output_$j/prod.inp | tee ./main/output_$j/prod_$i/energy_out.log
+        ./files/namd/namd2 main/output_$j/prod.inp | tee ./main/output_$j/prod_$i/energy_out.log
     done
 done
 # 1. Make Directories
