@@ -33,6 +33,8 @@ for ((i = 1; i <= $repls; i++)); do
 
 done
 
+### Will contain the information on when did the swapping happen...
+
 for ((i = 1; i <= $prodss; i++)); do
     touch ./main/par_temp_$i.txt
 done
@@ -181,6 +183,8 @@ done
 # 3. For Loop over replicas
 # 4. For Loop over replicas for production. output to .log file
 # 5. Make a function to update energies for all energies
+
+### Will create different txt files and output energy values for all temprature as comma seperated lists, like [1,2,3]
 mkdir data
 
 for ((i = 1; i <= $repls; i++)); do
