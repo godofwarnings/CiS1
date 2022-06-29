@@ -17,7 +17,7 @@ IF YOU CLICK<br>
 ssh -X sc4102.13@abacus.iiit.ac.in
 
 sint4 -c 10
-module add Gaussian/09revc
+module add Gaussian/09revC
 gview
 
 # if core dumped, change core number and try again
