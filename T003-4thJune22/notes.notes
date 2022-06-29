@@ -1,0 +1,9 @@
+    We need to find out which state our particle is in  
+-> We use microstate
+-> Partition Function 
+  ->(https://www.chemeurope.com/en/encyclopedia/Partition_function_%28statistical_mechanics%29.html)
+->Umbrella sampling: 
+    1. (https://www.researchgate.net/post/How_would_you_explain_Umbrella_sampling_in_Molecular_Dynamics)
+    2. WHAM - Weighted Histogram Analysis Method
+    3. We divide the energy graph into some parts and add springs in each part
+    4. 

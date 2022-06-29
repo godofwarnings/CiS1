@@ -1,0 +1,18 @@
+configuration {
+  step        10000
+  dt 1.000000e+00
+  version 2020-07-07
+}
+
+colvar {
+  name stretch
+  x  4.10321118322020e+01
+}
+
+restraint {
+  configuration {
+    step 10000
+    name stretch_harmonic
+  }
+}
+

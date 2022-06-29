@@ -1,0 +1,27 @@
+colvarsTrajFrequency        20
+##colvarsRestartFrequency  20000
+
+
+colvar {
+   name stretch
+   width 1
+
+   lowerboundary     30
+   upperboundary     50
+
+   distance {
+      group1 {
+         atomnumbersRange 1-19
+      }
+      group2  {
+         atomnumbersRange 1224-1231
+      }
+   }
+}
+
+harmonic {
+        name stretch_harmonic
+		colvars stretch
+        centers 43
+        forceConstant 50;# 2.5 * 0.1^2 = 0.1
+}
