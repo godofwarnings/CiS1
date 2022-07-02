@@ -1,0 +1,18 @@
+set terminal pdf
+
+set output 'report.pdf'
+
+set xlabel "x-axis"
+
+set autoscale
+
+set ylabel "y-axis"
+
+set title "name vs coord"
+set grid
+
+set style data lines
+
+plot "radius_of_gyration.dat"
+
+#gnuplot GNUPlotScript.txt

@@ -9,6 +9,8 @@
 ```tcl
 source sasa.tcl
 # Prompt will be there. Enter what you want to select. eg: protein, resid #resid_number, chain #chain_number
-protein
+eg: > protein
+    > resid 2
+    > chain B
 ```
 > The caculation will be visible on the TK console screen
