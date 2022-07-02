@@ -11,4 +11,4 @@ source sasa.tcl
 # Prompt will be there. Enter what you want to select. eg: protein, resid #resid_number, chain #chain_number
 protein
 ```
-> Don't worry if the screen looks stuck. The calculation will be going in the background.
+> The caculation will be visible on the TK console screen
