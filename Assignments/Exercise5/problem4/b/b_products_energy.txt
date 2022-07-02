@@ -1,0 +1,15 @@
+Filename = /home/iiit/sc4102.13/Assignments/Exercise5/q4/trans2.log
+
+File Name = trans2
+File Type = .log
+Calculation Type = IRC
+Calculation Method = 
+Basis Set = 
+Charge = 0
+Spin = Singlet
+E(RHF) = -231.72030899 a.u.
+RMS Gradient Norm = 0.00019910 a.u.
+Imaginary Freq = 
+Dipole Moment =  Debye
+Point Group = C1
+Job cpu time:  0 days  0 hours  1 minutes 55.7 seconds.

@@ -1,0 +1,16 @@
+Filename = /home/iiit/sc4102.13/Assignments/Exercise5/q4/trans1.log
+
+Title Card Required
+File Name = trans1
+File Type = .log
+Calculation Type = FREQ
+Calculation Method = RHF
+Basis Set = 3-21G
+Charge = 0
+Spin = Singlet
+E(RHF) = -231.60320807 a.u.
+RMS Gradient Norm = 0.00004930 a.u.
+Imaginary Freq = 1
+Dipole Moment = 0.5758 Debye
+Point Group = C1
+Job cpu time:  0 days  0 hours  0 minutes  6.0 seconds.

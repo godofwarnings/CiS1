@@ -1,0 +1,15 @@
+Filename = /home/iiit/sc4102.13/Assignments/Exercise5/q4_diesls.chk
+
+Title Card Required
+File Name = q4_diesls
+File Type = .chk
+Calculation Type = UNKNOWN
+Calculation Method = RHF
+Basis Set = 3-21G
+Charge = 0
+Spin = Singlet
+Total Energy = -230.96278454 a.u.
+RMS Gradient Norm = 0.00000000 a.u.
+Imaginary Freq = 
+Dipole Moment = 3.0740 Debye
+Point Group = 

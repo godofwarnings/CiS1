@@ -1,0 +1,1 @@
+1 hatree fock = 627.5095 kCal/mol
