@@ -171,10 +171,6 @@ Also known as Temperature Replica Exchange Molecular Dynamics
 2. Markov chains
 3. Metropolis-Hastings Algorithm
 
-When $a \ne 0$, there are two solutions to $(ax^2 + bx + c = 0)$ and they are 
-$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
-
-
 <hr style="background-color: white">
 
 ### SOME ABACUS SHIT
@@ -240,7 +236,7 @@ measure minmax $every
 measure center $every
 ```
 
-IGNORE
+Some examples
 ```tcl
 set sel3 [atomselect top "resid 1 and nitrogen"]
 set sel4 [atomselect top "resid 10 and hydrogen"]
