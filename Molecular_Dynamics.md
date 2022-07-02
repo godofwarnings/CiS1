@@ -202,9 +202,16 @@ scratch is like some 1.5tb storage which is for nodes.
 metafile
 1. 3 inputs
    -> path to the trajectry files , center , spring constant <br>
-
-(For Tutorial Exercise 1, take tolerance = 0.01, padding = 0)
-
+2. For periodic collective variable, use the flag -p
+eg:
+```bash
+wham -p #remaining command here
+```
+> (For Tutorial Exercise 1, take tolerance = 0.01, padding = 0)
+3. wham [P|Ppi|Pval] hist_min hist_max num_bins tol temperature numpad metadatafile freefile [num_MC_trials randSeed]
+```bash
+wham 12 30 10 0.01 300 0 metafile
+```
 ## <b>TK CONSOLE</b> 
 
 1. Go to TK console
