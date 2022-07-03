@@ -7,7 +7,7 @@ It also contains the tutorial pdfs from the official namd website.
 
 ### Download this if possible
 
-This contains the tutorial pdf and files required from official vmd website. The required files were too large to upload on github so instead uploaded here.
+This contains the tutorial pdf and files required from official vmd website. The required files were too large to upload on github so instead uploaded here. <br>
 https://iiitaphyd-my.sharepoint.com/:f:/g/personal/radhikesh_agrawal_research_iiit_ac_in/EjmHDjTzOT9AqR-Qm50JzBYBaSkOoeTDNi_CdxrzrYKvGA?e=M1eppA
 
 ## About this repo
