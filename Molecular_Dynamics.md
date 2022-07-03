@@ -238,19 +238,23 @@ measure center $every
 
 Some examples
 ```tcl
+# not useful as of now
 set sel3 [atomselect top "resid 1 and nitrogen"]
 set sel4 [atomselect top "resid 10 and hydrogen"]
 set con3 [measure center $sel3 weight mass]
 set con4 [measure center $sel4 weight mass]
 
 vecdist $con3 $con4
+```
 
-set sel5 [atomselect top "serial 1"]
-set sel6 [atomselect top "serial 104"]
-set con5 [measure center $sel5 weight mass]
-set con6 [measure center $sel6 weight mass]
+To calculate distance between individual atom. Use index or serial
+```tcl
+set sel1 [atomselect top "serial 1"]
+set sel2 [atomselect top "serial 104"]
+set con1 [measure center $sel1 weight mass]
+set con2 [measure center $sel2 weight mass]
 
-vecdist $con5 $con6
+vecdist $con1 $con2
 ```
 
 ### <b>Bash Scripting</b>
