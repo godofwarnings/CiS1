@@ -1,6 +1,6 @@
 # How to get sphere from solvation
 
-# > Courtesy of Ujjwal
+## Courtesy of _**Ujjwal**_
 
 1. Do the usual stuff to the protein.pdb file (autopsf stuff)
 2. Open the script and change the first line
