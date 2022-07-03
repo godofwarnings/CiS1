@@ -1,0 +1,33 @@
+colvarsTrajFrequency        20
+##colvarsRestartFrequency  20000
+
+
+colvar {
+   name stretch
+   width 1
+
+   lowerboundary     10
+   upperboundary     35
+
+   dihedral {
+      group1 {
+         atomnumbers 1
+      }
+      group2  {
+         atomnumbers 5
+      }
+      group3 {
+	 atomnumbers 8
+      }
+      group4 {
+      	 atomnumbers 10
+      }
+   }
+}
+
+harmonic {
+        name stretch_harmonic
+		colvars stretch
+        centers -180
+        forceConstant 8
+}
